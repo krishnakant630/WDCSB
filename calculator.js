@@ -1,8 +1,24 @@
 function calculator() {
   return {
-    add: (a, b) => a + b
-  };
-}
+    add: function(a, b) {
+      return a + b;
+    },
 
-const c = calculator();
-console.log(c.add(2, 3));
+    sub: function(a, b) {
+      return a - b;
+    },
+
+    mul: function(a, b) {
+      return a * b;
+    },
+
+    div: function(a, b) {
+      return a / b;
+    }
+}};
+let calc = calculator();
+
+console.log(calc.add(2, 3));
+console.log(calc.sub(5, 2));
+console.log(calc.mul(4, 3));
+console.log(calc.div(10, 2));
