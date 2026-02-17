@@ -35,3 +35,12 @@ if(arr[i]<min){
 }
 }
 console.log(min);
+// linear search
+let k=5
+for(let i=1;i<arr.length;i++){
+  if(arr[i]==k){
+    
+  }
+}
+console.log("Element found");
+console.log(k);
