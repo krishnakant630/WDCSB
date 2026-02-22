@@ -31,4 +31,8 @@ void main() {
   print(isPalindrome("madam"));
   print(fibonacci(7));
   print(minMax([5, 2, 9, 1, 6]));
+
+  for (int i = 1; i <= 10; i++) {
+    print("10 x $i = ${10 * i}");
+  }
 }
